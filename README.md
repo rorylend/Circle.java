@@ -212,6 +212,8 @@ public class Tester {
    }
 }
 ```
+</details>
+
 ## Usage
 
 Example input/output:
