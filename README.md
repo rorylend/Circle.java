@@ -152,6 +152,8 @@ public class Cylinder extends Circle {
    }
 }
 ```
+</details>
+
 # Tester.java
 ## Description
 
