@@ -213,6 +213,10 @@ public class Tester {
 ## Usage
 
 Example input/output:
+<details>
+<summary>Click to expand code</summary>
+
+```java
 /* Expected output
  * 
  * CIRCLE1
@@ -251,7 +255,7 @@ Example input/output:
            Length: 10.00
            Volume: 785.40
 */
-
+```
 
 ## What I Learned
 
