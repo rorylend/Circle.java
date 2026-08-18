@@ -1,8 +1,9 @@
 [Tester.java](https://github.com/user-attachments/files/31161786/Tester.java)
 
-This repository includes multiple steps from creating the superclass (Circle.java), the subclass (Cylinder.java), and running these classes by creating objects and calling their methods
+This repository includes multiple steps from creating the superclass (Circle.java), the subclass (Cylinder.java), and running these classes by creating objects and calling their methods.
 The outputs are Circle and Cylinder data printed to the console.
 
+# Circle.java
 ## Description
 
 This superclass holds a radius and calculates diameter, circumference, and area. Used as the base class for Cylinder.java.
