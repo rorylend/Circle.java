@@ -258,6 +258,12 @@ Example input/output:
 </details>
 
 ---
+**Video**
+
+https://github.com/user-attachments/assets/27ab47e0-0bff-461b-9a5e-dae98c9da6d9
+
+
+
 
 ## 📚 What I Learned
 
