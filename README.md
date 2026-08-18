@@ -1,51 +1,88 @@
-# Circle.java
-
-Short, punchy one-liner describing what the project does.
+[Circle.java](https://github.com/user-attachments/files/31161786/Circle.java)# Circle.java
 
 ![screenshot or demo gif](path/to/screenshot.png)
 
 ## Description
 
-A few sentences explaining what the project is, what problem it solves, and why you built it.
-
-## Features
-
-- Feature one
-- Feature two
-- Feature three
+This superclass holds a radius and calculates diameter, circumference, and area. Used as the base class for Cylinder.java.
+The input is the radius.
+The outputs are diameter, circumference, area, and a formatted toString.
 
 ## Tech Stack
 
 - Language: Java
-- Tools/Libraries: (Eclipse, JUnit, etc.)
+- Tool/Librarie: Eclipse
+  
+### 🟢 Code
 
-## Installation
+<details>
+<summary>Click to expand code</summary>
 
-```bash
-git clone https://github.com/yourusername/project-name.git
-cd project-name
+```java
+// Rory Lendzion
+// CSC110
+// 7/9/26
+// This superclass holds a radius and calculates diameter,
+//          circumference, and area. Used as the base class for Cylinder
+// The input is the radius
+// The outputs are diameter, circumference, area, and a formatted toString
+public class Circle {
+   protected double radius;
+   // Gets called when a Circle object is created. Initializes all variables
+   public Circle()
+   {
+      radius = 0.0;
+   }
+   public Circle(double radius)
+   {
+      this.radius = radius;
+   }
+   // This method copies the argument passed into the parameter to
+   // the protected variable radius
+   public void setRadius(double r)
+   {
+      radius = r;
+   }
+   // This method returns the value of the protected member
+   // variable radius.
+   public double getRadius()
+   {
+      return radius;
+   }
+   // This method calculates and returns the diameter of a circle object
+   public double calculateDiameter()
+   {
+      return radius * 2.0;
+   }
+   // This method calculates and returns the circumference of a circle
+   // object
+   public double calculateCircumference()
+   {
+      return radius * 2.0 * 3.1416;
+   }
+   // This method calculates and returns the Circle object's area.
+   public double calculateArea()
+   {
+      return 3.1416 * Math.pow(radius, 2);
+   }
+   // This method displays all of the data associated with a Circle
+   // object, formatted to 2 decimal places.
+   public String toString()
+   {
+      // Output results
+      String result = "\nThe circle data is\n" +
+          String.format("        Radius: %.2f\n", radius) +
+          String.format("      Diameter: %.2f\n", calculateDiameter()) +
+          String.format(" Circumference: %.2f\n", calculateCircumference()) +
+          String.format("          Area: %.2f", calculateArea());
+      return result;
+   }
+}
 ```
 
-Steps to build/run (e.g., open in Eclipse, compile with javac, etc.)
-
-## Usage
-
-```bash
-java Main
-```
-
-Example input/output or a short walkthrough of how someone would use it.
+</details>
 
 ## What I Learned
 
-A few bullet points on skills/concepts you practiced (great for job/course portfolios).
-
-## Future Improvements
-
-- Idea one
-- Idea two
-
-## License
-
-MIT (or whichever you choose)
+Superclasses, subclasses, creating public methods
 
