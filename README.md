@@ -1,24 +1,20 @@
-[Tester.java](https://github.com/user-attachments/files/31161786/Tester.java)
+# 🧮 Circle & Cylinder Inheritance Project
 
-This repository includes multiple steps from creating the superclass (Circle.java), the subclass (Cylinder.java), and running these classes by creating objects and calling their methods.
-The outputs are Circle and Cylinder data printed to the console.
+This repository includes multiple steps from creating the superclass (`Circle.java`), the subclass (`Cylinder.java`), and running these classes by creating objects and calling their methods. The outputs are Circle and Cylinder data printed to the console.
 
-# Circle.java
-## Description
+---
 
-This superclass holds a radius and calculates diameter, circumference, and area. Used as the base class for Cylinder.java.
-The input is the radius.
-The outputs are diameter, circumference, area, and a formatted toString.
+## 🟠 Circle.java
 
-## Tech Stack
+**Description**
+This superclass holds a radius and calculates diameter, circumference, and area. Used as the base class for `Cylinder.java`. The input is the radius. The outputs are diameter, circumference, area, and a formatted `toString`.
 
+**Tech Stack**
 - Language: Java
 - Tool/Library: Eclipse
-  
-### 🟢 Code
 
 <details>
-<summary>Click to expand code</summary>
+<summary>💻 Show code</summary>
 
 ```java
 // Rory Lendzion
@@ -80,23 +76,20 @@ public class Circle {
 
 </details>
 
-# Cylinder.java
-## Description
+---
 
-This subclass inherits radius, diameter, circumference, and area from Circle.java, and adds a length and volume calculation.
-The inputs are radius and length.
-The outputs are volume, and a formatted toString that includes Circle.java's data.
+## 🔵 Cylinder.java
 
-## Tech Stack
+**Description**
+This subclass inherits radius, diameter, circumference, and area from `Circle.java`, and adds a length and volume calculation. The inputs are radius and length. The outputs are volume, and a formatted `toString` that includes `Circle.java`'s data.
 
+**Tech Stack**
 - Language: Java
 - Tool/Library: Eclipse
-  
-### 🟢 Code
 
 <details>
-<summary>Click to expand code</summary>
-  
+<summary>💻 Show code</summary>
+
 ```java
 // Rory Lendzion
 // CSC110
@@ -152,22 +145,22 @@ public class Cylinder extends Circle {
    }
 }
 ```
+
 </details>
 
-# Tester.java
-## Description
+---
 
+## 🟢 Tester.java
+
+**Description**
 This tests the Circle and Cylinder classes by creating objects and calling their methods. The outputs are Circle and Cylinder data printed to the console.
 
-## Tech Stack
-
+**Tech Stack**
 - Language: Java
 - Tool/Library: Eclipse
-  
-### 🟢 Code
 
 <details>
-<summary>Click to expand code</summary>
+<summary>💻 Show code</summary>
 
 ```java
 // Rory Lendzion
@@ -212,13 +205,14 @@ public class Tester {
    }
 }
 ```
+
 </details>
 
-## Usage
-
+**Usage**
 Example input/output:
+
 <details>
-<summary>Click to expand code</summary>
+<summary>💻 Show expected output</summary>
 
 ```java
 /* Expected output
@@ -260,9 +254,12 @@ Example input/output:
            Volume: 785.40
 */
 ```
+
 </details>
 
-## What I Learned
+---
+
+## 📚 What I Learned
 
 Superclasses, subclasses, creating public methods
 
