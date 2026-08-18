@@ -261,5 +261,5 @@ Example input/output:
 
 ## 📚 What I Learned
 
-Superclasses, subclasses, creating public methods
+Superclasses, subclasses, inheritance, java
 
