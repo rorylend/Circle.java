@@ -80,6 +80,80 @@ public class Circle {
 
 </details>
 
+# Cylinder.java
+## Description
+
+This subclass inherits radius, diameter, circumference, and area from Circle.java, and adds a length and volume calculation.
+The inputs are radius and length.
+The outputs are volume, and a formatted toString that includes Circle.java's data.
+
+## Tech Stack
+
+- Language: Java
+- Tool/Library: Eclipse
+  
+### 🟢 Code
+
+<details>
+<summary>Click to expand code</summary>
+
+```java
+// Rory Lendzion
+// CSC110
+// 7/9/26
+
+//class declaration
+public class Cylinder extends Circle {
+
+   private double length;
+
+   //Sets radius (via super) and length to 0.0
+   public Cylinder()
+   {
+      super();
+      length = 0.0;
+   }
+
+   // Overloaded constructor. Accepts radius and length
+   public Cylinder(double radius, double length)
+   {
+      super(radius);
+      this.length = length;
+   }
+
+   // Mutator method for length.
+   public void setLength(double length)
+   {
+      this.length = length;
+   }
+   
+   // Accessor method for length.
+   public double getLength()
+   {
+      return length;
+   }
+   
+   // Calculates and returns the volume of the Cylinder object.
+   public double calculateVolume()
+   {
+      return calculateArea() * length;
+   }
+
+   // Displays all of the data associated with a Cylinder object,
+   // , formatted to 2 decimal places
+   public String toString()
+   {
+      String result = super.toString() +
+          "\nThe cylinder data is\n" +
+          String.format("        Length: %.2f\n", length) +
+          String.format("        Volume: %.2f", calculateVolume());
+
+      return result;
+   }
+}
+```
+
+
 ## What I Learned
 
 Superclasses, subclasses, creating public methods
