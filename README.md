@@ -96,7 +96,7 @@ The outputs are volume, and a formatted toString that includes Circle.java's dat
 
 <details>
 <summary>Click to expand code</summary>
-
+  
 ```java
 // Rory Lendzion
 // CSC110
@@ -256,6 +256,7 @@ Example input/output:
            Volume: 785.40
 */
 ```
+</details>
 
 ## What I Learned
 
