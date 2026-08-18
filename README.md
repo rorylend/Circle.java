@@ -1,7 +1,5 @@
 [Circle.java](https://github.com/user-attachments/files/31161786/Circle.java)# Circle.java
 
-![screenshot or demo gif](path/to/screenshot.png)
-
 ## Description
 
 This superclass holds a radius and calculates diameter, circumference, and area. Used as the base class for Cylinder.java.
@@ -11,7 +9,7 @@ The outputs are diameter, circumference, area, and a formatted toString.
 ## Tech Stack
 
 - Language: Java
-- Tool/Librarie: Eclipse
+- Tool/Library: Eclipse
   
 ### 🟢 Code
 
@@ -22,10 +20,6 @@ The outputs are diameter, circumference, area, and a formatted toString.
 // Rory Lendzion
 // CSC110
 // 7/9/26
-// This superclass holds a radius and calculates diameter,
-//          circumference, and area. Used as the base class for Cylinder
-// The input is the radius
-// The outputs are diameter, circumference, area, and a formatted toString
 public class Circle {
    protected double radius;
    // Gets called when a Circle object is created. Initializes all variables
